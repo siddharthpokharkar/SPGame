@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    background-image: url('tic-tac-toe-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0.1, 0.1, 0, 0.3);
+    font-size: 8vmin;
+    color: #9e140f;
+    background-color: #ffffc7;
+  }
+  
+  #reset-btn:hover,
+  #new-btn:hover {
+    background-color: #3ca2c8;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: deeppink;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: #9e140f;
+    font-size: 6vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .gif {
+      background-image: url('congratulations.gif');
+      background-size: contain; /* Scales the GIF to fit within the element */
+      background-position: center; /* Centers the GIF within the element */
+      background-repeat: no-repeat;
+    }
+    
